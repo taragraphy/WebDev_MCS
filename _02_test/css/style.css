@@ -1,0 +1,78 @@
+@import url(reset.css);
+
+@font-face {
+	font-family: 'Favorit';
+	src: url(../fonts/favorit.otf);
+	font-weight: lighter;
+	font-family: 'Panama';
+	src: url(../fonts/panama.otf);
+	font-weight: lighter;
+}
+
+body {
+	background: #000000;
+	color: white;
+	text-align: center;
+	font-family: 'Favorit', 'Helvetica', sans-serif;
+	font-size: 38px;
+	font-weight: lighter;
+	text-transform: uppercase;
+} 
+
+a {
+	color: red;
+	text-decoration: none;
+}
+
+li {
+	display: inline;
+	margin-right: 20px;s
+}
+
+section {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.header	{
+	color: red;
+	height: 700px;
+	padding: 60px;
+}
+
+.heading {
+	font-family: 'Panama', serif;
+	font-size: 270px;
+	font-weight: lighter;
+	line-height: 220px;
+	margin-top: 80px;
+	letter-spacing: -10px;
+}
+
+
+.quote-image {
+	background-image: url(../img/hero-2.png);
+	background-position: center;
+	background-size: cover;
+	padding: 200px;
+}
+
+.quote-text {
+	font-family: 'Panama', serif;
+	font-size: 155px;
+	font-weight: lighter;
+	line-height: 150px;
+	letter-spacing: -10px;
+	color: white;
+}
+
+section.paragraph-block {
+	text-align: center;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 60px;
+}
+
+section h2 {
+	color:red;
+}
