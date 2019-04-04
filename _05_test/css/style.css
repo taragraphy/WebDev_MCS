@@ -1,0 +1,134 @@
+@import url(reset.css);
+
+@font-face {
+	src: url(../fonts/century.otf);
+	font-family: 'Century';
+	font-weight: normal;
+	src: url(../fonts/whyte-book.otf);
+	font-family: 'Whyte';
+	font-weight: normal;
+	src: url(../fonts/whyte-inktrap.otf);
+	font-family: 'Whyte';
+	font-weight: lighter;
+}	
+
+body {
+	font-family: 'Whyte', 'Helvetica', sans-serif;
+	font-weight: lighter;
+	text-align: center;
+	font-size: 18px;
+
+}
+
+section {
+	width: 100%;
+}
+
+div {
+	margin: 20px auto;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+	letter-spacing: 1.86px;
+	text-transform: uppercase;
+	margin-right: 10px;
+}
+
+
+/*conctrete styles*/
+
+.header {
+	position: fixed;
+	margin: auto;
+	width: 100%;
+	top: 60px;
+}
+
+.header-logo-container {
+	font-family: 'Century', 'Times', serif;
+	font-weight: normal;
+	font-size: 28px;
+	letter-spacing: 5.01px;
+	text-transform: uppercase; 
+}
+
+.hero-heading-name {
+	font-weight: lighter;
+	font-size: 167px;
+	letter-spacing: -4.62px;
+	text-transform: uppercase; 
+	margin-bottom: 0px;
+	margin-top: 50px;
+}
+
+.hero-heading-date {
+	font-family: 'Century', 'Times', serif;
+	font-weight: normal;
+	font-size: 78px;
+	color: #000000;
+	letter-spacing: -0.3px;
+	margin-top: -30px;
+}
+
+.hero-heading-caption {
+	font-size: 13px;
+	letter-spacing: 1.86px;
+	line-height: 20px;
+	text-transform: uppercase;
+	width: 40vw;
+	margin: 40px auto;
+}
+
+
+.hero-image-container {
+	background-image: url(../img/img2.png);
+	background-position: center;
+	background-size: cover;
+	padding: 200px;
+	width: 600px;
+	height: 1400px;
+	margin-top: 600px;
+	margin-bottom: 0px;
+}
+
+.content-subheading {
+	padding: 80px;
+	background-color: white;
+	position: relative;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.content-subheading-container {
+	font-family: 'Century', 'Times', serif;
+	font-size: 60px;
+	letter-spacing: 0;
+	line-height: 64px;
+	width: 1088px;
+	margin: auto;
+	padding-top: 40px;
+}
+
+.content-columns {
+	width: 1088px;
+	padding: 0px;
+	background-color: white;
+	position: relative;
+	margin: auto;
+	margin-top: 0px;
+
+}
+
+div.content-columns div {
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: justify;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: 0;
+	padding: 20px;
+}
